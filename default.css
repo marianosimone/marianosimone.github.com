@@ -36,15 +36,24 @@ h1 span.surname {
 p.links {
     text-align: center;
     font-size: 30px;
-    color: #C0C0C0;
     margin: 7px;
+}
+
+p.links .alternate {
+   color: #737373;
 }
 
 p.links a {
     text-decoration: none;
-    color: #8E8E8E;
+    color: #9B9B9B;
 }
 
 p.links a:hover {
     text-decoration: underline;
+}
+
+p.method {
+   text-align: center;
+    font-size: 30px;
+    color: #8E8E8E;
 }
