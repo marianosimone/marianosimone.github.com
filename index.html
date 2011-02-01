@@ -12,12 +12,13 @@
 <div class="cell">
     <h1>
         <span class="name">Mariano</span>
-        <span class="surname">Simone</span>.
+        <span class="surname">Simone</span>
+        <span id="star">*</span>
     </h1>
     <p class="links">
     </p>
-    <p class="method">
-        <span id="method">&nbsp;</span>
+    <p class="description">
+        <span id="description">&nbsp;</span>
     </p>
 </div>
 </div>
@@ -34,13 +35,19 @@ $(document).ready(function(){
     alternate = !alternate;
     var ref = $("<a id='"+link+"' href='"+links[link]["url"]+"' class='"+clazz+"'>"+link+"</a>");
     ref.mouseover(function(){
-      $("span#method").text(links[this.id]["comment"]);
+      $("#description").text(links[this.id]["comment"]);
     }); 
     ref.mouseout(function(){
-      $("span#method").html("&nbsp;");
+      $("#description").html("&nbsp;");
     });
     $("p.links").append(ref);
   }
+  $("#star").mouseover(function(){
+    $("#description").text("just me");
+  });
+  $("#star").mouseout(function(){
+    $("#description").html("&nbsp;");
+  });
 });
 </script>
 </body>
