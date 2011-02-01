@@ -1,7 +1,7 @@
 body {
 	font-family: Palatino, Georgia, serif;
 	font-size: 18px;
-    background: #E0E4CC;
+    background: #C0C0C0;
 }
 
 /* container and cell make vertical centering possible */
@@ -24,13 +24,13 @@ h1 {
 	text-align: center;
     font-weight: normal;
     font-family: 'Cardo';
-    color: #044E7A;
+    color: #737373;
     text-decoration: none;
     margin: 0px;
 }
 
 h1 span.surname {
-    color: #FA6900;
+    color: #61314F;
 }
 
 p.links {
@@ -42,7 +42,7 @@ p.links {
 
 p.links a {
     text-decoration: none;
-    color: #376F7B;
+    color: #8E8E8E;
 }
 
 p.links a:hover {
