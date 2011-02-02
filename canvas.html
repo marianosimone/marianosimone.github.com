@@ -31,7 +31,7 @@ function drawEventDisplay(eventDisplay) {
 function handleMouseover(e) {
 canvas=document.getElementById("myCanvas");
 	c=canvas.getContext("2d");
-var imgd = c.getImageData(parseInt(e.clientX), parseInt(e.clientY), 1, 1);
+var imgd = c.getImageData(parseInt(e.layerX), parseInt(e.layerY), 1, 1);
 var pix = imgd.data;
 if (pix[3] != 0){
 		drawEventDisplay("algo");
