@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<script>
+ 
+var canvas=null;
+var c = null;
+var rectangularRegions = new Array();
+ 
+function isMouseoverRectangularRegion(e, rectangularRegion) {
+	var mouseX = e.clientX - canvas.offsetLeft;
+	var mouseY = e.clientY - canvas.offsetTop;
+ 
+	if(mouseX >= rectangularRegion.x 
+		&& mouseX <= (rectangularRegion.x + 
+			rectangularRegion.width) 
+		&& mouseY >= rectangularRegion.y 
+		&& mouseY <= (rectangularRegion.y+
+			rectangularRegion.height)) {
+		return true;
+	}		
+	else return false;
+}
+ 
+function RectangularRegion(x,y,width,height) {
+	this.x=x;
+	this.y=y;
+	this.width=width;
+	this.height=height;
+}
+ 
+function drawImage(destX,destY,width,height,imageSrc) {
+ 
+	var imageObj = new Image();
+	imageObj.onload = function() {
+		c.drawImage(imageObj,destX,destY,width,height);
+	}
+	imageObj.src = imageSrc;	
+ 
+	rectangularRegions.push(
+		new RectangularRegion(destX,destY,width,height));
+}
+ 
+function init() {
+	canvas=document.getElementById("myCanvas");
+	c=canvas.getContext("2d");
+	drawImage(100,50,200,137,"background.png");
+	drawImage(350,75,93,104,"background.png");
+	drawEventDisplay("Mouseover an image...");
+}
+ 
+function drawEventDisplay(eventDisplay) {
+	c.clearRect(0,0,400,30);
+	c.font="18pt Calibri";
+	c.fillStyle="black";
+	c.fillText(eventDisplay, 10, 25);
+}
+ 
+function handleMouseover(e) {
+canvas=document.getElementById("myCanvas");
+	c=canvas.getContext("2d");
+var imgd = c.getImageData(e.layerX, e.layerY, 1, 1);
+var pix = imgd.data;
+
+	if (isMouseoverRectangularRegion(e, 
+		rectangularRegions[0])){
+		drawEventDisplay("Darth Vader!");
+	}
+	else if (isMouseoverRectangularRegion(e, 
+		rectangularRegions[1])){
+		drawEventDisplay("Yoda!");
+	}
+	else {
+		drawEventDisplay("Mouseover an image...");
+	}	
+}
+ 
+</script>
+</head>
+<body onload="init()" style="background:red">
+	<canvas id="myCanvas" width="578" height="200"
+	onmousemove="handleMouseover(event)"></canvas>
+</body>
+</html>
