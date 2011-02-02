@@ -61,7 +61,11 @@ canvas=document.getElementById("myCanvas");
 	c=canvas.getContext("2d");
 var imgd = c.getImageData(parseInt(e.layerX), parseInt(e.layerY), 1, 1);
 var pix = imgd.data;
-		drawEventDisplay(pix);
+if (pix[3] != 0){
+		drawEventDisplay("algo");
+} else {
+drawEventDisplay("");
+}
 
 }
  
