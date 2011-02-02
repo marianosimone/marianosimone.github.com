@@ -1,6 +1,6 @@
 body {
-	font-family: Palatino, Georgia, serif;
-	font-size: 18px;
+    font-family: Palatino, Georgia, serif;
+    font-size: 18px;
     background: #C0C0C0;
 }
 
@@ -19,9 +19,9 @@ div.cell {
 }
 
 h1 {
-	font-size: 80px;
-	width: 100%;
-	text-align: center;
+    font-size: 4em;
+    width: 100%;
+    text-align: center;
     font-weight: normal;
     font-family: 'Cardo';
     color: #737373;
@@ -36,7 +36,7 @@ h1 span.surname {
 
 p.links {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.8em;
     margin: 7px;
 }
 
