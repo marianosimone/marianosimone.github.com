@@ -5,47 +5,19 @@
  
 var canvas=null;
 var c = null;
-var rectangularRegions = new Array();
- 
-function isMouseoverRectangularRegion(e, rectangularRegion) {
-	var mouseX = e.clientX - canvas.offsetLeft;
-	var mouseY = e.clientY - canvas.offsetTop;
- 
-	if(mouseX >= rectangularRegion.x 
-		&& mouseX <= (rectangularRegion.x + 
-			rectangularRegion.width) 
-		&& mouseY >= rectangularRegion.y 
-		&& mouseY <= (rectangularRegion.y+
-			rectangularRegion.height)) {
-		return true;
-	}		
-	else return false;
-}
- 
-function RectangularRegion(x,y,width,height) {
-	this.x=x;
-	this.y=y;
-	this.width=width;
-	this.height=height;
-}
  
 function drawImage(destX,destY,width,height,imageSrc) {
- 
 	var imageObj = new Image();
 	imageObj.onload = function() {
 		c.drawImage(imageObj,destX,destY,width,height);
 	}
-	imageObj.src = imageSrc;	
- 
-	rectangularRegions.push(
-		new RectangularRegion(destX,destY,width,height));
+	imageObj.src = imageSrc;
 }
  
 function init() {
 	canvas=document.getElementById("myCanvas");
 	c=canvas.getContext("2d");
 	drawImage(100,50,200,137,"background.png");
-	drawImage(350,75,93,104,"background.png");
 	drawEventDisplay("Mouseover an image...");
 }
  
@@ -59,7 +31,7 @@ function drawEventDisplay(eventDisplay) {
 function handleMouseover(e) {
 canvas=document.getElementById("myCanvas");
 	c=canvas.getContext("2d");
-var imgd = c.getImageData(parseInt(e.layerX), parseInt(e.layerY), 1, 1);
+var imgd = c.getImageData(parseInt(e.clientX), parseInt(e.clientY), 1, 1);
 var pix = imgd.data;
 if (pix[3] != 0){
 		drawEventDisplay("algo");
@@ -71,7 +43,7 @@ drawEventDisplay("");
  
 </script>
 </head>
-<body onload="init()" style="background:red">
+<body onload="init()" style="background:red;cursor:crosshair">
 	<canvas id="myCanvas" width="578" height="200"
 	onmousemove="handleMouseover(event)"></canvas>
 </body>
