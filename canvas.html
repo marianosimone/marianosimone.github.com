@@ -59,20 +59,10 @@ function drawEventDisplay(eventDisplay) {
 function handleMouseover(e) {
 canvas=document.getElementById("myCanvas");
 	c=canvas.getContext("2d");
-var imgd = c.getImageData(1, 1, 1, 1);
+var imgd = c.getImageData(parseInt(e.layerX), parseInt(e.layerY), 1, 1);
 var pix = imgd.data;
+		drawEventDisplay(pix);
 
-	if (isMouseoverRectangularRegion(e, 
-		rectangularRegions[0])){
-		drawEventDisplay("Darth Vader!");
-	}
-	else if (isMouseoverRectangularRegion(e, 
-		rectangularRegions[1])){
-		drawEventDisplay("Yoda!");
-	}
-	else {
-		drawEventDisplay("Mouseover an image...");
-	}	
 }
  
 </script>
