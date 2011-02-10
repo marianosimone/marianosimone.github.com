@@ -36,7 +36,7 @@ h1 span.surname {
 
 p.links {
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.528em;
     margin: 7px;
 }
 
@@ -55,6 +55,6 @@ p.links a:hover {
 
 p.description {
    text-align: center;
-    font-size: 30px;
+    font-size: 1.528em;
     color: #8E8E8E;
 }
