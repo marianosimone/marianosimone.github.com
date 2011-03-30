@@ -18,6 +18,11 @@ div.cell {
     vertical-align: middle;
 }
 
+h1 a {
+    color: #737373;
+    text-decoration: none;
+}
+
 h1 {
     font-size: 4em;
     width: 100%;
