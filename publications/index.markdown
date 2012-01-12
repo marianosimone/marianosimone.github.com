@@ -1,5 +1,7 @@
 ---
 layout: inner
-title: publications
+title: Publications by Mariano Simone
 ---
-Hello World!
+These are some of my publications:
+
+- [功夫mail (Kung Fu mail)](publications/gongfu-mail)
