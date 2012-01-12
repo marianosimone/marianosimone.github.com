@@ -1,13 +1,7 @@
-<html>
-<head>
-    <title>Mariano Simone</title>
-    <link href="default.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css"
-        href="http://fonts.googleapis.com/css?family=Cardo" />
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
-</head>
-<body>
-
+---
+layout: default
+title: Mariano Simone
+---
 <div class="container">
 <div class="cell">
     <h1>
@@ -28,9 +22,9 @@
 $(document).ready(function(){
   var links = { 
                  "blog":{ url: "http://www.marianosimone.com.ar/0pointer", comment: "what do i have to say?"},
+                 "publications":{url:"http://www.marianosimone.com.ar/publications",comment:"i hear and i forget. i see and i remember. i do and i understand"},
                  "github":{ url: "http://github.com/marianosimone", comment: "code shall rule the world"},
-                 "linkedin": {url:"http://ar.linkedin.com/in/marianosimone",comment:"i know people"},
-                 "publications":{url:"http://www.marianosimone.com.ar/publications",comment:"i hear and i forget. i see and i remember. i do and i understand"}
+                 "linkedin": {url:"http://ar.linkedin.com/in/marianosimone",comment:"i know people"}
               };
   var alternate = true;
   for (var link in links) {
@@ -53,6 +47,4 @@ $(document).ready(function(){
   });
 });
 </script>
-</body>
-</html>
 
