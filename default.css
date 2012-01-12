@@ -39,6 +39,15 @@ h1 span.surname {
     color: #61314F;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: #9B9B9B;
+}
+
 p.links {
     text-align: center;
     font-size: 1.528em;
@@ -49,17 +58,9 @@ p.links .alternate {
    color: #737373;
 }
 
-p.links a {
-    text-decoration: none;
-    color: #9B9B9B;
-}
-
-p.links a:hover {
-    text-decoration: underline;
-}
-
 p.description {
-   text-align: center;
+    text-align: center;
     font-size: 1.528em;
     color: #8E8E8E;
 }
+
