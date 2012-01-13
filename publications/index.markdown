@@ -4,4 +4,4 @@ title: Publications by Mariano Simone
 ---
 These are some of my publications:
 
-- [功夫mail (Kung Fu mail)](publications/gongfu-mail)
+- [mail功夫 (mail kung fu)](publications/mail-gongfu)
