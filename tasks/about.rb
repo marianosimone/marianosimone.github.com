@@ -8,7 +8,8 @@ task 'reading_listal' do
 layout: inner
 title: "Mariano is Currently Reading..."
 ---
-<h2>I'm currently reading</h2>
+## I'm currently reading
+
 <ul class='books'>
 HTML
   File.open("reading.markdown", 'w+') do |file|
