@@ -64,3 +64,14 @@ p.description {
     color: #8E8E8E;
 }
 
+ul.books li {
+    display: block;
+    height: 100px;
+    line-height: 100px;
+}
+
+ul.books li img {
+    vertical-align: middle;
+    padding: 5px;
+}        
+
