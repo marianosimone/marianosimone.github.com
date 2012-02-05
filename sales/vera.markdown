@@ -25,7 +25,4 @@ Los hardcore pueden ver el resultado de [lshw](sales/vera_lshw.html)
     <img style="margin:10px" src="sales/vera_abierta.jpg"/><img style="margin:10px;margin-bottom:50px" src="sales/vera_teclado.jpg"/>
 </div>
 
-Estoy pidiendo $2000, pero podemos arreglar si está interesados.
-
-Saludos, y si saben de alguien a quien le pueda interesar, bienvenidos
-
+Si saben de alguien a quien le pueda interesar, bienvenidos...
