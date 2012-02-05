@@ -1,3 +1,5 @@
+require 'rubygems'
+require 'active_support/deprecation'
 require 'feedzirra'
 
 desc 'Generate list of reading books'
