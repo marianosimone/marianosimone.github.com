@@ -5,6 +5,7 @@ title: "Mariano is Currently Reading..."
 ## I'm currently reading
 
 <ul class='books'>
+<li><img src='http://i2.listal.com/image/3370567/50full.jpg'/><a href='http://www.listal.com/book/3473479'>El Nuevo Cocinero Científico: Cuando la ciencia se mete en la cocina</a></li>
 <li><img src='http://i2.listal.com/image/products/50/1594201854/books/1594201854.jpg'/><a href='http://www.listal.com/book/china-rules-world-end-western-martin-jacques'>When China Rules the World: The End of the Western World and the Birth of a New Global Order</a></li>
 <li><img src='http://i2.listal.com/image/3024454/50full.jpg'/><a href='http://www.listal.com/book/futuro-del-talento-el'>El Futuro Del Talento</a></li>
 <li><img src='http://i2.listal.com/image/productsus/50/0451522761/books/0451522761.jpg'/><a href='http://www.listal.com/book/war-worlds-hg-wells-3089325'>The War of the Worlds</a></li>
