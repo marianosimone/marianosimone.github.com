@@ -20,7 +20,16 @@ All techniques will have a name inspired by the kind-of-esoteric way Kung Fu mov
 ## Techniques
 ### "[The Words That Flow Alone]": keeping it short
 > The good, if brief, is two times good
-There's only one reason we write emails: we want to comunicate with each other.
+
+There’s only one reason we write emails: we want to comunicate with each other. Sometimes, it may be just small-talk, but more often than not, we want to say something that the reader can understand, take into consideration and even remember.
+
+There are some [radical approaches](http://three.sentenc.es/) to maintain some discipline on [writting short emails](http://techcrunch.com/2010/09/18/3-sentence-emails/), but I tend to follow the following rule of thumb:
+
+- One sentence to (re)introduce myself (if necessary)
+- One or two sentences to explain the issue at hand. It may be a summary of a project I'm working on, a movie I recently watched or a product I want to buy or make a complaint about.
+- One sentence to express what I'm excpecting the reader to do about that issue. It may be an action, a reply, etc.
+
+As it's been said countless times (even though I just remember about seven places where I read about [that](http://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two)), we (i.e. the one who's reading) can only handle about seven "items" at once. Remember this while writting an email, and you'll be OK.
 
 ### "The Bold Word Catches The Passing Eye": emphasizing keywords
 *This technique was taught to me by Sebastián Planes, a former student of "Problem Analysis and Solving" at [F.I.U.B.A.](http://www.fi.uba.ar)*
@@ -31,6 +40,8 @@ You can achieve this by:
 - **Marking keywords** with a **bold** typeface (if you use rich-formatting)
 - Using UPPERCASE letters (as it's [considered shouting in netiquette](http://email.about.com/od/netiquettetips/qt/Writing-In-All-Caps-Is-Like-Shouting.htm), you should avoid using it too much)
 - Using \__Some Kind Of Custom Notation__
+
+### "The One That Goes And Comes Back": keep one question per mail
 
 # Managing email
 ### "The Emptiness Of The Box Makes It Useful": a clutter-free inbox
