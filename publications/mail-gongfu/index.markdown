@@ -18,7 +18,7 @@ All techniques will have a name inspired by the kind-of-esoteric way Kung Fu mov
 
 # Writting emails
 ## Techniques
-### "[The Words That Flow Alone]": keeping it short
+### "The Words That Flow Alone": keeping it short
 > The good, if brief, is two times good
 
 There’s only one reason we write emails: we want to comunicate with each other. Sometimes, it may be just small-talk, but more often than not, we want to say something that the reader can understand, take into consideration and even remember.
@@ -39,7 +39,7 @@ If you couldn't (or didn't want) to master "The Words That Flow Alone" techinque
 You can achieve this by:
 - **Marking keywords** with a **bold** typeface (if you use rich-formatting)
 - Using UPPERCASE letters (as it's [considered shouting in netiquette](http://email.about.com/od/netiquettetips/qt/Writing-In-All-Caps-Is-Like-Shouting.htm), you should avoid using it too much)
-- Using \__Some Kind Of Custom Notation__
+- Using \_\_Some Kind Of Custom Notation\_\_
 
 ### "The One That Goes And Comes Back": keep one question per mail
 
