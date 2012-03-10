@@ -1,1 +1,13 @@
 Just my homepage... nothing fancy
+
+Dependencies to build are:
+ - Packages
+  - libxml2-dev
+  - libxslt1-dev
+  - libcurl4-openssl-dev
+ - Gems
+  - rake
+  - jekyll
+  - activesupport (3.2.2)
+  - feedzirra (for current readings) (0.1.3)
+
