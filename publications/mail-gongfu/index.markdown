@@ -54,6 +54,7 @@ You can achieve this by:
 ## Weapons
 - [bugmenot](http://www.bugmenot.com)
 - [GMail](http://www.gmail.com)
+- [Spamgourmet](http://www.spamgourmet.com)
 
 # GMail-specific
 ## Techniques
@@ -62,7 +63,20 @@ You can achieve this by:
 address tags using (+)
 
 ## Weapons
+### "Kunai": Handle it later
+Like [Scorpio's weapon](http://mortalkombat.wikia.com/wiki/Kunai), email can be asked to return later. Sometimes, there's a message you won't be handling right now, and you don't want it cluttering your inbox, do you?
+
+The simplest (and smartest) way of achieving this, so far, is using Gmail Snooze, a Google App Script that gives you some tags to apply to your emails (like Snooze 1 day, Snooze 2 days... you get the idea, right?).
+
+<div style="text-align:center">
+    <img src="publications/mail-gongfu/img/snooze-gmail.png" alt="Applying a snooze tag to an email"/>
+</div>
+
+To install (and, if you want, understand) it, just follow the guide at [Lifehacker](http://lifehacker.com/5825634/how-to-add-a-snooze-button-to-gmail-no-extensions-required) or the [Google Apps Developer Blog](http://googleappsdeveloper.blogspot.com/2011/07/gmail-snooze-with-apps-script.html)
+
+Another option (wich I have not tested, as I don't like the 3rd party browser-extension approach) is [Boomerang](http://www.boomeranggmail.com/). The good thing about is that not only snoozes emails, but it also allows you to schedule messages. If you trust this guys enough, you should check'em out.
+
+### Other Weapons
 - [rapportive](http://rapportive.com/)
-- [gmail snooze](http://googleappsdeveloper.blogspot.com/2011/07/gmail-snooze-with-apps-script.html)
 - [priority inbox](https://mail.google.com/mail/help/priority-inbox.html)
 
