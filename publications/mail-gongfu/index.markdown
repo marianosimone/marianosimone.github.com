@@ -41,7 +41,37 @@ You can achieve this by:
 - Using UPPERCASE letters (as it's [considered shouting in netiquette](http://email.about.com/od/netiquettetips/qt/Writing-In-All-Caps-Is-Like-Shouting.htm), you should avoid using it too much)
 - Using \_\_Some Kind Of Custom Notation\_\_
 
-### "The One That Goes And Comes Back": keep one question per mail
+### "If One Goes, One Returns. If Many Go, One Returns": keep one question per mail (or at least per line)
+Humans are bad at handling questions. I've found, many times, that asking more than one thing at a time may let you without answers (at least, with less answers than questions). I used to write emails like this one (I removed formalities for the sake of simplicity):
+
+> I'd like to know where can I find X, as well as your opinion on X regarding Y. Do you think I should use it along with Z?
+
+Oh, the humanity! A common reply to this would be something of this sort:
+
+> You can get X at A, B or C
+
+Mhhh... What about the other questions?
+
+So, this technique is based on making clear what you expect to recieve answers for. I think that the best way is to send just one question per email (and this is specially true if it's your first communication with the reciever, because you don't know she/he is on handling multiple questions)
+
+Question:
+
+> I'd like to know where can I find X?
+
+Reply:
+
+> You can get X at A, B or C
+
+Asking again:
+
+> Thanks a lot
+> There's another question I'd like to ask: What do you think of X?
+
+As this may be cumbersome, a less verbose solution would be to use bullets to make it clear that there is more than one question to be answered:
+
+> - Where can I find X?
+> - What do you think of X?
+> - Do you think I should use it along with Z?
 
 # Managing email
 ### "The Emptiness Of The Box Makes It Useful": a clutter-free inbox
@@ -52,8 +82,8 @@ You can achieve this by:
 [address tags](https://en.wikipedia.org/wiki/Email_address#Address_tags)
 
 ## Weapons
-- [bugmenot](http://www.bugmenot.com)
 - [GMail](http://www.gmail.com)
+- [bugmenot](http://www.bugmenot.com)
 - [Spamgourmet](http://www.spamgourmet.com)
 
 # GMail-specific
