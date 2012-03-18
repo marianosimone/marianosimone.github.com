@@ -75,6 +75,21 @@ As this may be cumbersome, a less verbose solution would be to use bullets to ma
 
 # Managing email
 ### "The Emptiness Of The Box Makes It Useful": a clutter-free inbox
+You can define the usefulness of many objects by its emptiness. For example, a window if useful because of the emptiness inside it's frame. A cup can contain liquids because it's empty (yeah, I know what you're thinking... it's full of air... just grow up).
+
+Similarly, an email inbox is most useful when it's empty. [Inbox Zero](http://inboxzero.com/) is a kind of movement started by [Merlin Mann](http://merlinmann.com/) that focuses on keeping a clean inbox, as a consequence of an empty brain regarding the handling of each message, as well as the time you waste thinking about it.
+
+Keeping a clutter-free inbox is not a technique by itself, but the confirmation that you are managing your email effectively. Take a look at your inbox right now. How many emails are sitting there? 10? 100? 1000? (I've seen people with over 5000 emails in there). Those numbers can be overwhelming. A simple way to start cleaning it up is:
+- Take all at-least-one-month-old-email: Send them to "I don't think I'll need this" quarentine
+- Take all at-least-one-week-old-email: Send them to "I'll take a look" quarentine
+- Take at least 10 of the remaining emails on your inbox: Handle them (repeat until inbox is empty)
+- When your inbox is empty, go to the "I'll take a look" quarentine "folder": Repeat the previous step with its messages
+- When that quarentine is empty, move to the "I don't think i'll need this" emails: Mark them all as read, archive them... If you didn't feel the need to handle them before, you probably won't (ever). 
+
+Once your inbox is (almost) empty, keep it that way. Your worflow should be something like:
+ - Email in
+ - Email handled (replied, archived, reported as spam :P, snoozed)
+ - Email removed from inbox 
 
 ### "The Accumulation Of The Useless Is Wasteful": a clutter-free account
 
