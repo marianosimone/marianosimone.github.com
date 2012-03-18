@@ -125,3 +125,5 @@ Another option (wich I have not tested, as I don't like the 3rd party browser-ex
 - [rapportive](http://rapportive.com/)
 - [priority inbox](https://mail.google.com/mail/help/priority-inbox.html)
 
+# Further Reading
+- [Inbox Zero: Better Practices for staying (near) zero](http://www.43folders.com/2006/04/04/better-practices) by [Merlin Mann](http://merlinmann.com/)
