@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script src="http://code.jquery.com/jquery-1.7.2.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+<style>
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#map_canvas {
+  height: 100%;
+  width: 100%;
+}
+.gallery {
+    display: none;
+}
+</style>
+<script type="text/javascript">
+  function initMap() {
+    var myOptions = {
+      zoom: 2,
+      center: new google.maps.LatLng(5,-15),
+      disableDefaultUI: true,
+      center: new google.maps.LatLng(30, 0),
+      mapTypeId: google.maps.MapTypeId.SATELLITE
+    }
+    var myStyle = [
+       {
+         featureType: "administrative",
+         elementType: "labels",
+         stylers: [
+           { visibility: "off" }
+         ]
+       },
+       {
+         featureType: "water",
+         elementType: "labels",
+         stylers: [
+           { visibility: "off" }
+         ]
+       }
+    ];
+
+    var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+    map.mapTypes.set('mystyle', new google.maps.StyledMapType(myStyle, { name: 'My Style' }));
+
+    var norbridgeLoc = new google.maps.LatLng(-34.479225,-58.799672);
+    var norbridgeMarker = new google.maps.Marker({
+        position: norbridgeLoc,
+        map: map,
+        title: 'Colegio Norbridge'
+    });
+    google.maps.event.addListener(norbridgeMarker, 'click', function() {
+      $("#norbridge").click();      
+    });
+
+    var menendezLoc = new google.maps.LatLng(43.545261,-5.661926);
+    var menendezMarker = new google.maps.Marker({
+        position: menendezLoc,
+        map: map,
+        title: 'Colegio Ramón Menendez Pindal'
+    });
+    google.maps.event.addListener(menendezMarker, 'click', function() {
+      $("#menendez").click();      
+    });
+  }
+    function initVideos() {
+        $(".gallery a[rel^='prettyPhoto']").prettyPhoto({
+                    animation_speed:'normal',
+                    theme:'light_square',
+                    social_tools:''});
+	}
+    $(document).ready(function() {
+        initMap();
+        initVideos();      
+	});
+</script>
+</head>
+<body>
+<div id="map_canvas"></div>
+<ul class="gallery">
+    <li><a id="norbridge" href="http://youtu.be/6yR20WmxG-k?rel=0" rel="prettyPhoto" title="Colegio Norbridge, Del Viso, Argentina">norbridge</a></li>
+    <li><a id="menendez" href="http://youtu.be/paeNnR33i5Q?rel=0" rel="prettyPhoto" title="Colegio Ram&oacute;n Men&eacute;ndez Pidal, Gij&oacute;n, Espa&ntilde;a">menendez</a></li>
+</ul>
+</body>
+</html>
+
