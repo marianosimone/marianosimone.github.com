@@ -2,6 +2,7 @@ Just my homepage... nothing fancy
 
 Dependencies to buildt this are:
  - Packages
+  - ruby >= 1.9.2
   - libxml2-dev
   - libxslt1-dev
   - libcurl4-openssl-dev
