@@ -1,4 +1,4 @@
-require 'tasks/about'
+require_relative 'tasks/about'
 
 def jekyll(opts = "")
   sh "rm -rf _site"
