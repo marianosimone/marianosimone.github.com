@@ -127,3 +127,4 @@ Another option (wich I have not tested, as I don't like the 3rd party browser-ex
 
 # Further Reading
 - [Inbox Zero: Better Practices for staying (near) zero](http://www.43folders.com/2006/04/04/better-practices) by [Merlin Mann](http://merlinmann.com/)
+- [How to send and reply to email](http://matt.might.net/articles/how-to-email/) by [Matt Might](http://matt.might.net/)
