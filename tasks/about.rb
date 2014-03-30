@@ -27,6 +27,6 @@ end
 
 def get_rss_items
     # Fetching urls according to http://www.listal.com/rsshelp/
-    feed = Feedzirra::Feed.fetch_and_parse(['owned','used','wanted'].collect{|source| "http://marianosimone.listal.com/rss/#{source}/books/?used=Using"})
+    feed = Feedzirra::Feed.fetch_and_parse(['owned','used','wanted'].collect{|source| "http://marianosimone.listal.com/rss/books/#{source}?used=Using"})
     return feed.values.collect {|source| source.entries}.flatten
 end
