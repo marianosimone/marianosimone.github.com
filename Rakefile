@@ -1,17 +1,14 @@
-require_relative 'tasks/about'
-
-def jekyll(opts = "")
+def jekyll(command)
   sh "rm -rf _site"
-  sh "jekyll " + opts
+  sh "jekyll " + command
 end
 
 desc "Build site using Jekyll"
-task :build => :reading_listal do
-  jekyll("--lsi")
+task :build do
+  jekyll("build")
 end
 
 desc "Serve on Localhost with port 4000"
-task :default => :build do
-  jekyll("--server --auto")
+task :default do
+  jekyll("serve")
 end
-
