@@ -11,12 +11,6 @@
         body{
             padding-top:2em;
         }
-        #banner{
-            border-bottom:none
-        }
-        .page-header h1{
-            font-size:4em
-        }
         .bs-component{
             position:relative
         }
@@ -44,6 +38,10 @@
             float: left;
             font-size: 75px;
             text-align: center;
+        }
+        #reading_list img {
+            border-radius: 100%;
+            height: 56px;
         }
         @media (max-width: 768px) {
             .header-content {
@@ -143,8 +141,6 @@
                         <div class="list-group-item">
                             <div class="row-action-primary"><i class="fa fa-file-code-o"></i></div>
                             <div class="row-content">
-                                <!-- <div class="least-content">15m</div> -->
-                                <!-- <div class="action-secondary"><i class="mdi-file-folder"></i></div> -->
                                 <h4 class="list-group-item-heading">Codewars</h4>
                                 <p class="list-group-item-text">Achieve mastery through challenge: Improve your skills by training with others on real code challenges. <a href="http://www.codewars.com">Sign up!</a></p>
                             </div>
@@ -163,23 +159,7 @@
             </div>
             <div class="col-lg-4">
                 <div class="bs-component">
-                    <div class="list-group">
-                        <div class="list-group-item">
-                            <div class="row-action-primary"><i class="fa fa-book"></i></div>
-                            <div class="row-content">
-                                <h4 class="list-group-item-heading">Thinking, Fast and Slow</h4>
-                                <p class="list-group-item-text"><a href="https://en.wikipedia.org/wiki/Daniel_Kahneman">Daniel Kahneman</a> takes readers on an exploration of what influences thought example by example, sometimes with unlikely word pairs like "vomit and banana."</p>
-                            </div>
-                        </div>
-                        <div class="list-group-separator"></div>
-
-                        <div class="list-group-item">
-                            <div class="row-action-primary"><i class="fa fa-music"></i></div>
-                            <div class="row-content">
-                                <h4 class="list-group-item-heading">Dave Matthews Band</h4>
-                                <p class="list-group-item-text"><a href="https://en.wikipedia.org/wiki/Dave_Matthews_Band">DMB</a> is an American rock band, featuring guitars, drums, violins, saxophones, trumpets and an amazin vocalist</p>
-                            </div>
-                        </div>
+                    <div class="list-group" id="reading_list">
                     </div>
                 </div>
             </div>
@@ -198,5 +178,20 @@
             </div>
         </div>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $.ajax({
+            url: 'https://listal-widgets.herokuapp.com/user/marianosimone/reading.json',
+            success: function(data) {
+                var inner = $.map(data['items'], function(e) {
+                    return '<div class="list-group-item"><div class="row-action-primary"><img src="' + e['image'] + '"/></div><div class="row-content"><p class="list-group-item-heading">' + e['title'] +'</p><p list-group-item-text><a href="' + e['url'] + '">Read more</a></p></div></div>';
+                }).join('<div class="list-group-separator"></div>');
+                var div = $('#reading_list');
+                div.append(inner);
+            }
+        });
+    });
+    </script>
 </body>
 </html>
