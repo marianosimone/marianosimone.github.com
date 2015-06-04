@@ -1,6 +1,6 @@
 Just my homepage... nothing fancy
 
-Dependencies to buildt this are:
+Dependencies to build this are:
  - Packages
   - ruby >= 1.9.2
   - libxml2-dev
