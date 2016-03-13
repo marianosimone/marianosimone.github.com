@@ -182,7 +182,7 @@
     <script type="text/javascript">
     $(document).ready(function() {
         $.ajax({
-            url: 'https://listal-widgets.herokuapp.com/user/marianosimone/reading.json',
+            url: 'https://listal-widgets.herokuapp.com/user/marianosimone/read.json',
             success: function(data) {
                 var inner = $.map($(data['items']).slice(0, 3), function(e) {
                     return '<div class="list-group-item"><div class="row-action-primary"><img src="' + e['image'] + '"/></div><div class="row-content"><p class="list-group-item-heading">' + e['title'] +'</p><p list-group-item-text><a href="' + e['url'] + '">Read more</a></p></div></div>';
