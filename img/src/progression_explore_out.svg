@@ -1,0 +1,12 @@
+<svg width="537" height="306" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>Layer 1</title>
+  <ellipse fill="#fff" cx="152.5" cy="153" id="svg_7" rx="152.5" ry="153" stroke="#000"/>
+  <ellipse fill="#fff" cx="425.5" cy="153.00001" id="svg_6" rx="111.5" ry="111.5" stroke="#000"/>
+  <path fill="#fff" stroke="#000" opacity="undefined" d="m425.5,228.00001c-41.43646,0 -75,-33.56354 -75,-75c0,-41.43646 33.56354,-75 75,-75c41.43646,0 75,33.56354 75,75c0,41.43646 -33.56354,75 -75,75z" id="svg_1"/>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="410.24219" y="103.82246" id="svg_2" font-size="24" font-family="'Cabin'" text-anchor="start" xml:space="preserve">Do</text>
+  <text fill="#000000" stroke="#000" x="401.03907" y="69.82246" id="svg_8" stroke-width="0" font-size="24" font-family="'Cabin'" text-anchor="start" xml:space="preserve">Lead</text>
+  <text fill="#000000" stroke="#000" x="114.32031" y="30.82246" id="svg_9" stroke-width="0" font-size="24" font-family="'Cabin'" text-anchor="start" xml:space="preserve">Explore</text>
+ </g>
+
+</svg>
