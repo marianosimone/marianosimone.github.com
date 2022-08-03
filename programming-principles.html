@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mariano Simone - 💭 Programming Principles</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/material-wfont.min.css" rel="stylesheet">
+  <link href="css/articles.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="container">
+    <div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="jumbotron">
+            <div class="row">
+              <div class="col-sm-10 header-content">
+                <h1>💭 Programming Principles</h1>
+                <p>Some of these are common tropes in the industry, and some are more "original", distilled from years of working with great people.</p>
+                <h2>⚾ Three strikes and refactor</h2>
+                <p>When trying to use something that doesn't "feel right" (e.g. a name, the order or amount of parameters, etc.), resist the urge to refactor it immediately, but take note of it. If it happens two more times, then go for it.</p>
+                <p>Note that those times can come from someone else, for example in a code review: if you've already thought about changing something, and someone in a code review points it out as well, that's a second strike!</p>
+                <h2>🪞 Symmetry as a design guide</h2>
+                <p>In general, if there's a way to "add" something, it's a good idea to have a way to "remove" it. This could be literally, or figuratively symmetric (e.g. a `Queue` allows to "add" particular elements, but only "remove" from the front; that's OK)<p>
+                <h2>💩 Wrong code should look wrong</h2>
+                <p>Dependending on the language you are using, you might have access to linters/static code analyzers (think <a href="https://rubocop.org/">Rubocop</a>, <a href="http://findbugs.sourceforge.net">FindBugs</a>, <a href="https://errorprone.info">ErrorProne</a>, <a href="http://pychecker.sourceforge.net">PyChecker</a>, etc.).</p>
+                <p>Sometimes, you might need to silence them (e.g. when just setting them up in an existing project, you may not be able/want to fix everything). Use explicit/per-line annotations to disable checking in <em>each validation</em>, instead of hiding them in a TODO file. The code will look uglier, and that's fine: it signals where the problems are, and avoids per-file allowlists that can introduce regressions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
