@@ -151,14 +151,6 @@
                                 <p class="list-group-item-text">Achieve mastery through challenge: Improve your skills by training with others on real code challenges. <a href="https://www.codewars.com">Sign up!</a></p>
                             </div>
                         </div>
-                        <div class="list-group-separator"></div>
-                        <div class="list-group-item">
-                            <div class="row-action-primary"><i class="fa fa-file-text-o"></i></div>
-                            <div class="row-content">
-                                <h4 class="list-group-item-heading">Hacker Newsletter</h4>
-                                <p class="list-group-item-text">A weekly newsletter of the best articles on startups, technology, programming, and more. All links are curated by hand from the popular Hacker News site. <a href="https://www.hackernewsletter.com/">Sign up!</a></p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -185,29 +177,14 @@
             </div>
             <div class="col-lg-4">
                 <div class="bs-component">
-                    <div class="list-group" id="reading_list">
+                    <div class="list-group">
                         <div class="list-group-item">
-                                <div class="row-action-primary"><i class="fa fa-cogs"></i></div>
-                                <div class="row-content">
-                                    <h4 class="list-group-item-heading">Loading...</h4>
-                                    <p class="list-group-item-text">This is going to be great</p>
-                                </div>
-                            </div>
-                            <div class="list-group-separator"></div>
-                            <div class="list-group-item">
-                                <div class="row-action-primary"><i class="fa fa-cogs"></i></div>
-                                <div class="row-content">
-                                    <h4 class="list-group-item-heading">Wait for it...</h4>
-                                    <p class="list-group-item-text">Just a sec</p>
-                                </div>
-                            </div>
-                            <div class="list-group-separator"></div>
-                            <div class="list-group-item">
-                                <div class="row-action-primary"><i class="fa fa-cogs"></i></div>
-                                <div class="row-content">
-                                    <h4 class="list-group-item-heading">Almost there...</h4>
-                                    <p class="list-group-item-text">... just hold tight</p>
-                                </div>
+                            <div class="row-action-primary"><i class="fa fa-file-text-o"></i></div>
+                            <div class="row-content">
+                                <h4 class="list-group-item-heading">Hacker Newsletter</h4>
+                                <p class="list-group-item-text">A weekly newsletter of the best articles on startups, technology, programming,
+                                    and more. All links are curated by hand from the popular Hacker News site. <a
+                                        href="https://www.hackernewsletter.com/">Sign up!</a></p>
                             </div>
                         </div>
                     </div>
@@ -216,19 +193,5 @@
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        $.ajax({
-            url: 'https://listal-widgets.herokuapp.com/user/marianosimone/reading.json',
-            success: function(data) {
-                var inner = $.map($(data['items']).slice(0, 3), function(e) {
-                    return '<div class="list-group-item"><div class="row-action-primary"><img src="' + e['image'] + '"/></div><div class="row-content"><p class="list-group-item-heading">' + e['title'] +'</p><p list-group-item-text><a href="' + e['url'] + '">Read more</a></p></div></div>';
-                }).join('<div class="list-group-separator"></div>');
-                var div = $('#reading_list');
-                div.html(inner);
-            }
-        });
-    });
-    </script>
 </body>
 </html>
