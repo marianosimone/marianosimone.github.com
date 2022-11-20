@@ -47,21 +47,23 @@
         <div>
         Find
             <ul>
-                <li>🕹 <a href="#Games">Games</a></li><li>📚 <a href="#Books">Books</a></li><li>🛠 <a href="#3DModels">3D Models</a></li><li>🎵 <a href="#Soundtracks">Soundtracks</a></li><li>💻 <a href="#Software">Software</a></li><li>📺 <a href="#Videos">Videos</a></li></ul>
+                <li>🕹 <a href="#Games">Games</a></li><li>📚 <a href="#Books">Books</a></li><li>🛠 <a href="#3DModels">3D Models</a></li><li>🎵 <a href="#Soundtracks">Soundtracks</a></li><li>💻 <a href="#Software">Software</a></li><li>🛠 <a href="#DevTools">Development Tools</a></li><li>📺 <a href="#Videos">Videos</a></li></ul>
             If an entry has a ⭐, I've played/seen/read/listened to it and really enjoyed it
 
         </div>
 
         <a id="Games"><h2>🕹 Games</h2></a>
             <ul>
-                <li>If a game has a <img class="platform" src="img/steam.svg"/>, it means that I have a Steam key (but you'll have to check Steam to know compatibility)</li>
+                <li>If a game has a <img class="platform" src="img/gog.svg"/> (gog.com), <img class="platform" src="img/rockstar_social.svg"/> (Rockstar Social), <img class="platform" src="img/steam.svg"/> (Steam), it means that I have a key in that marketplace (but you'll have to check there to know compatibility)</li>
                 <li>If a game has platform icon, it means that I have a downloadable version of it in that platform</li>
             </ul>
             Show:
             <a href="#" onClick="filterByPlatform('all');">all</a>,
             <img onClick="filterByPlatform('android');" class="platform" src="img/android.svg"/>
+            <img onClick="filterByPlatform('gog');" class="platform" src="img/gog.svg"/>
             <img onClick="filterByPlatform('linux');" class="platform" src="img/linux.svg"/>
             <img onClick="filterByPlatform('mac');" class="platform" src="img/mac.svg"/>
+            <img onClick="filterByPlatform('rockstar_social');" class="platform" src="img/rockstar_social.svg"/>
             <img onClick="filterByPlatform('steam');" class="platform" src="img/steam.svg"/>
             <img onClick="filterByPlatform('windows');" class="platform" src="img/windows.svg"/>
             <table>
@@ -116,16 +118,6 @@
                             <div class="empty_icon"/>
                             </td>
                         <td>
-                            <a href="https://store.steampowered.com/search/?term=911 Operator">911 Operator</a> </td>
-                        <td>
-                            <img class="platform" src="img/steam.svg"/>
-                            </td>
-                    </tr>
-                    <tr class="game all steam">
-                        <td>
-                            <div class="empty_icon"/>
-                            </td>
-                        <td>
                             <a href="https://store.steampowered.com/search/?term=>observer_">>observer_</a> </td>
                         <td>
                             <img class="platform" src="img/steam.svg"/>
@@ -157,16 +149,6 @@
                             </td>
                         <td>
                             <a href="https://store.steampowered.com/search/?term=A Good Snowman is Hard to Build">A Good Snowman is Hard to Build</a> </td>
-                        <td>
-                            <img class="platform" src="img/steam.svg"/>
-                            </td>
-                    </tr>
-                    <tr class="game all steam">
-                        <td>
-                            <div class="empty_icon"/>
-                            </td>
-                        <td>
-                            <a href="https://store.steampowered.com/search/?term=A Mortician's Tale">A Mortician's Tale</a> </td>
                         <td>
                             <img class="platform" src="img/steam.svg"/>
                             </td>
@@ -545,16 +527,6 @@
                             </td>
                         <td>
                             <a href="https://store.steampowered.com/search/?term=Car Mechanic Simulator 2018">Car Mechanic Simulator 2018</a> </td>
-                        <td>
-                            <img class="platform" src="img/steam.svg"/>
-                            </td>
-                    </tr>
-                    <tr class="game all steam">
-                        <td>
-                            <div class="empty_icon"/>
-                            </td>
-                        <td>
-                            <a href="https://store.steampowered.com/search/?term=Carcassonne - Tiles & Tactics">Carcassonne - Tiles & Tactics</a> </td>
                         <td>
                             <img class="platform" src="img/steam.svg"/>
                             </td>
@@ -1095,16 +1067,6 @@
                             <div class="empty_icon"/>
                             </td>
                         <td>
-                            <a href="https://store.steampowered.com/search/?term=Gloria Victis">Gloria Victis</a> </td>
-                        <td>
-                            <img class="platform" src="img/steam.svg"/>
-                            </td>
-                    </tr>
-                    <tr class="game all steam">
-                        <td>
-                            <div class="empty_icon"/>
-                            </td>
-                        <td>
                             <a href="https://store.steampowered.com/search/?term=Go Home Dinosaurs">Go Home Dinosaurs</a> </td>
                         <td>
                             <img class="platform" src="img/steam.svg"/>
@@ -1497,6 +1459,16 @@
                             <img class="platform" src="img/windows.svg"/>
                             </td>
                     </tr>
+                    <tr class="game all gog">
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://www.gog.com/en/games?query=Liberated">Liberated</a> </td>
+                        <td>
+                            <img class="platform" src="img/gog.svg"/>
+                            </td>
+                    </tr>
                     <tr class="game all linux mac windows">
                         <td>
                             <img src="https://hb.imgix.net/f68942f9fc9903842efce0e59a313365783222a6.png?auto=compress,format&s=1455d0f494f1e09e46ae793b438f35f4"/>
@@ -1617,6 +1589,16 @@
                             <img class="platform" src="img/mac.svg"/>
                             <img class="platform" src="img/steam.svg"/>
                             <img class="platform" src="img/windows.svg"/>
+                            </td>
+                    </tr>
+                    <tr class="game all rockstar_social">
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://socialclub.rockstargames.com/games">Max Payne 3</a> </td>
+                        <td>
+                            <img class="platform" src="img/rockstar_social.svg"/>
                             </td>
                     </tr>
                     <tr class="game all steam">
@@ -1873,16 +1855,6 @@
                             <img class="platform" src="img/windows.svg"/>
                             </td>
                     </tr>
-                    <tr class="game all steam">
-                        <td>
-                            <div class="empty_icon"/>
-                            </td>
-                        <td>
-                            <a href="https://store.steampowered.com/search/?term=Overlord II">Overlord II</a> </td>
-                        <td>
-                            <img class="platform" src="img/steam.svg"/>
-                            </td>
-                    </tr>
                     <tr class="game all linux mac windows">
                         <td>
                             <img src="https://hb.imgix.net/6f62c42ca7252eab952085ddb5c779f6e1ae2aef.png?auto=compress,format&s=223d2020f1d21192d5dca7b95d6ac665"/>
@@ -1893,16 +1865,6 @@
                             <img class="platform" src="img/linux.svg"/>
                             <img class="platform" src="img/mac.svg"/>
                             <img class="platform" src="img/windows.svg"/>
-                            </td>
-                    </tr>
-                    <tr class="game all steam">
-                        <td>
-                            <div class="empty_icon"/>
-                            </td>
-                        <td>
-                            <a href="https://store.steampowered.com/search/?term=PAC-MAN™  CHAMPIONSHIP EDITION 2">PAC-MAN™  CHAMPIONSHIP EDITION 2</a> </td>
-                        <td>
-                            <img class="platform" src="img/steam.svg"/>
                             </td>
                     </tr>
                     <tr class="game all steam">
@@ -2024,16 +1986,6 @@
                             </td>
                         <td>
                             <a href="https://store.steampowered.com/search/?term=Plunge">Plunge</a> </td>
-                        <td>
-                            <img class="platform" src="img/steam.svg"/>
-                            </td>
-                    </tr>
-                    <tr class="game all steam">
-                        <td>
-                            <div class="empty_icon"/>
-                            </td>
-                        <td>
-                            <a href="https://store.steampowered.com/search/?term=Popup Dungeon">Popup Dungeon</a> </td>
                         <td>
                             <img class="platform" src="img/steam.svg"/>
                             </td>
@@ -2309,16 +2261,6 @@
                             <img class="platform" src="img/linux.svg"/>
                             <img class="platform" src="img/mac.svg"/>
                             <img class="platform" src="img/windows.svg"/>
-                            </td>
-                    </tr>
-                    <tr class="game all steam">
-                        <td>
-                            <div class="empty_icon"/>
-                            </td>
-                        <td>
-                            <a href="https://store.steampowered.com/search/?term=Satisfactory">Satisfactory</a> </td>
-                        <td>
-                            <img class="platform" src="img/steam.svg"/>
                             </td>
                     </tr>
                     <tr class="game all steam">
@@ -3212,6 +3154,16 @@
                             <img class="platform" src="img/windows.svg"/>
                             </td>
                     </tr>
+                    <tr class="game all gog">
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://www.gog.com/en/games?query=Wanderlust: Travel Stories">Wanderlust: Travel Stories</a> </td>
+                        <td>
+                            <img class="platform" src="img/gog.svg"/>
+                            </td>
+                    </tr>
                     <tr class="game all steam">
                         <td>
                             <div class="empty_icon"/>
@@ -3402,7 +3354,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img src="https://hb.imgix.net/5ffbe086fa60a733089567666a97885c8e50c640.png?auto=compress,format&s=dcd9c077aad29c96918d9fd38de66af1"/>
+                            <img src="https://hb.imgix.net/a6430d2902cbab5f55117aa926decfd8aa2d3fdf.png?auto=compress,format&s=12d21afd6d88409d69357203522494c3"/>
                             </td>
                         <td>
                             <a href="https://nostarch.com/automatestuff2">Automate the Boring Stuff with Python: Practical Programming for Total Beginners</a>
@@ -3798,6 +3750,14 @@
                     </tr>
                     <tr>
                         <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            Pathfinder Second Edition Core Rulebook and Starfinder Core Rulebook
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <img src="https://hb.imgix.net/1cece242e927b9595b68e447c508fd7343064e47.png?auto=compress,format&s=646fb1e6268683f2895321fed10bbbd6"/>
                             </td>
                         <td>
@@ -3942,6 +3902,14 @@
                     </tr>
                     <tr>
                         <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            Starfinder: Pact Worlds Campaign Setting
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
                             <img src="https://hb.imgix.net/b43db3147dee255528e4d9bbbed3dd16c5d31892.png?auto=compress,format&s=73d52e4cd8e1f80303f0606dde179bcb"/>
                             </td>
                         <td>
@@ -3960,7 +3928,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img src="https://hb.imgix.net/7401852cc61a0899c6dde87998f028a69b74fb3f.png?auto=compress,format&s=0e0e337e7b64afaeadfd7c9753c5b3d5"/>
+                            <img src="https://hb.imgix.net/6736424443ac707dd6c68d11808763a031da7b1e.png?auto=compress,format&s=89c380863f669f228291b46e7dc43d77"/>
                             </td>
                         <td>
                             <a href="http://www.topcow.com">Sunstone Vol. 1</a>
@@ -4014,7 +3982,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img src="https://hb.imgix.net/de7180eeaac48b2bdd7852cc4257e1cfa782e9cb.png?auto=compress,format&s=d135381e3830dcd54230f80bc546f3a9"/>
+                            <img src="https://hb.imgix.net/b9714f75bb92233d1778adafa797cb3e80de8ed1.png?auto=compress,format&s=496f3defaa0ad0773e582d06cd17b789"/>
                             </td>
                         <td>
                             <a href="http://www.dynamite.com/htmlfiles/viewProduct.html?PRO=C107315">The Boys Vol. 1: The Name of the Game</a>
@@ -4095,7 +4063,7 @@
                     </tr>
                     <tr>
                         <td>
-                            <img src="https://hb.imgix.net/e11bcaa8564de08513ecb0a3b03907827139bfa0.png?auto=compress,format&s=ff28132eb7d5b09b9b4c9431dd45d645"/>
+                            <img src="https://hb.imgix.net/bb20eafeb371cb8af87c6b81003290c2e0ed53a8.png?auto=compress,format&s=97d4fad9cfec175728a358df19d5f6f7"/>
                             </td>
                         <td>
                             <a href="http://www.fantagraphics.com/lovebunglers/">The Love Bunglers</a>
@@ -4285,7 +4253,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <img src="https://hb.imgix.net/7c4a846fa19b05df8eb620cd90684a145345b5af.png?auto=compress,format&s=1ec5ad2a2cf4da2ec4407a52a2a50679"/>
+                        <img src="https://hb.imgix.net/3bfdc8bfcec2a0c68b5788ced77669235c28b747.png?auto=compress,format&s=728573c90ab48a495566cd158851315e"/>
                         </td>
                     <td>
                         <a href="https://haylandterrain.com/collections/fantasy-3d-printable-files-1/products/dock-accessories-3d-printable">Dock Accessories</a>
@@ -4320,7 +4288,7 @@
                         <img src="https://hb.imgix.net/4879d1702f641fc327422c2ad78fe664235ecfd3.png?auto=compress,format&s=6555c36b484a8e422b557e28c25871eb"/>
                         </td>
                     <td>
-                        <a href="https://haylandterrain.com/products/sitting-male-townfolk">Sitting Male Townfolk</a>
+                        <a href="https://haylandterrain.com/products/sitting-male-townfolk">Sitting Male Townsfolk</a>
                         </td>
                 </tr>
                 <tr>
@@ -4774,16 +4742,6 @@
                     </tr>
                     <tr>
                         <td>
-                            <div class="empty_icon"/>
-                            </td>
-                        <td>
-                            <a href="https://duckduckgo.com/?q=GameGuru">GameGuru</a> </td>
-                        <td>
-                            <img class="platform" src="img/steam.svg"/>
-                            </td>
-                    </tr>
-                    <tr>
-                        <td>
                             <img src="https://hb.imgix.net/9533f79501ba7c9e2940d0d02309f6583210c6e6.png?auto=compress,format&s=d514043c5633834b19b7cff6f1c59b1b"/>
                             </td>
                         <td>
@@ -4802,6 +4760,114 @@
                             <img class="platform" src="img/windows.svg"/>
                             </td>
                     </tr>
+                    </tbody>
+            </table>
+        <a id="DevTools"><h2>🛠 Development Tools</h2></a>
+            <table>
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td>Name</td>
+                        <td>Platforms</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=Discover Unity Game Development - From Zero to 12 Games">Discover Unity Game Development - From Zero to 12 Games</a> </td>
+                        <td>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=FlowCanvas">FlowCanvas</a> </td>
+                        <td>
+                            <img class="platform" src="img/unity.svg"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=Gaia">Gaia</a> </td>
+                        <td>
+                            <img class="platform" src="img/unity.svg"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=GameFlow">GameFlow</a> </td>
+                        <td>
+                            <img class="platform" src="img/unity.svg"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=GameGuru">GameGuru</a> </td>
+                        <td>
+                            <img class="platform" src="img/steam.svg"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=GameMaker Studio 2 Creator 12 Months">GameMaker Studio 2 Creator 12 Months</a> </td>
+                        <td>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=Heroic Fantasy Creatures Full Pack Volume 1">Heroic Fantasy Creatures Full Pack Volume 1</a> </td>
+                        <td>
+                            <img class="platform" src="img/unity.svg"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=Intro to Game Development with Unity">Intro to Game Development with Unity</a> </td>
+                        <td>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=Inventory Pro">Inventory Pro</a> </td>
+                        <td>
+                            <img class="platform" src="img/unity.svg"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=Polygon Farm, Polygon City, and Polygon Prototype">Polygon Farm, Polygon City, and Polygon Prototype</a> </td>
+                        <td>
+                            </td>
+                    </tr>
                     <tr>
                         <td>
                             <div class="empty_icon"/>
@@ -4810,6 +4876,56 @@
                             <a href="https://duckduckgo.com/?q=RPG Maker VX">RPG Maker VX</a> </td>
                         <td>
                             <img class="platform" src="img/steam.svg"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=Realistic Effects Pack 4">Realistic Effects Pack 4</a> </td>
+                        <td>
+                            <img class="platform" src="img/unity.svg"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=UFPS: Ultimate FPS">UFPS: Ultimate FPS</a> </td>
+                        <td>
+                            <img class="platform" src="img/unity.svg"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=Ultimate Game Music Collection">Ultimate Game Music Collection</a> </td>
+                        <td>
+                            <img class="platform" src="img/unity.svg"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=Universal Sound FX">Universal Sound FX</a> </td>
+                        <td>
+                            <img class="platform" src="img/unity.svg"/>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="empty_icon"/>
+                            </td>
+                        <td>
+                            <a href="https://duckduckgo.com/?q=uMMORPG">uMMORPG</a> </td>
+                        <td>
+                            <img class="platform" src="img/unity.svg"/>
                             </td>
                     </tr>
                     </tbody>
