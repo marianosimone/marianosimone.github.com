@@ -36,3 +36,7 @@ table, th, td {
 th, td {
     padding: 0 1em 0 1em;
 }
+blockquote {
+  font-size: 1em;
+  font-style: italic;
+}
