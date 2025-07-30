@@ -11,7 +11,7 @@ Whenever you are thinking of starting your next project, whether at work or for 
 - Doing what you are good at ensures that you are using *your time efficiently*, and that the *results have the best chance of having the right quality*.
 - And doing what you enjoy… Do I really need to spell this out?.
 
-![Venn Diagram showing the sweet spot where Needs, Skills, and Likes overlap](img/needs-skills-likes-sweet.png)
+![Venn Diagram showing the sweet spot where Needs, Skills, and Likes overlap](/img/needs-skills-likes-sweet.png)
 
 Let's look at some examples:
 
@@ -33,7 +33,7 @@ The overlap of the three is where you want to be most of the time, but there are
 - You are in learning mode, so doing things that you are not good at, but are improving at, makes the "good at" space bigger in the future
 - Your morale/energy is low, and doing things that you enjoy can help you improve that
 
-![Venn Diagram showing crunch, learning, and morale boost modes](img/needs-skills-likes-modes.png)
+![Venn Diagram showing crunch, learning, and morale boost modes](/img/needs-skills-likes-modes.png)
 
 As you can see from these caveats, the most important part of this technique is not to always optimize for the center, but to be conscious of where you are, and to define when and how to move around.
 

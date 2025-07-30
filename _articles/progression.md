@@ -13,11 +13,11 @@ When talking about progression in any discipline, I've come to believe that ther
 
 One way to think about this is as three concentric circles:
 
-![Concentric circles, from smaller to biggest: Do, Lead, Explore](img/progression_concentric.png)
+![Concentric circles, from smaller to biggest: Do, Lead, Explore](/img/progression_concentric.png)
 
 However, a more realistic way of visualizing is this:
 
-![More realistic model: Do is a circle, Lead is a , Explore](img/progression_real.png)
+![More realistic model: Do is a circle, Lead is a , Explore](/img/progression_real.png)
 
 Here, we can more clearly see:
 
@@ -60,9 +60,9 @@ You could also apply this to other areas of the human experience (and certainly 
   - In the first stage, you concentrate on the "what" is being done, on the second, on "how" to do it, while on the third, you are more interested on "why" certain things need doing.
 - Visualizing it as concentric circles helps find some potential pathological cases:
   - If you are "Do"ing, and outside of "Lead" too much, you might be solving tasks that are unnecessary:
-    ![Concentric circles, with Do out](img/progression_do_out.png)
+    ![Concentric circles, with Do out](/img/progression_do_out.png)
   - If you are "Explore"ing, and don't overlap with "Lead"ers and "Do"ers, you might be too out of touch with reality, or they might be solving problems that are not even analyzed beforehand:
-    ![Concentric circles, with Do out](img/progression_explore_out.png)
+          ![Concentric circles, with Do out](/img/progression_explore_out.png)
 
 ## Acknowledgements
 
