@@ -1,1 +1,33 @@
+title: Mariano Simone
+description: Personal website and blog
+url: "https://marianosimone.github.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
 highlighter: rouge
+permalink: /:title/
+
+# Collections
+collections:
+  articles:
+    output: true
+    permalink: /:title/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "articles"
+    values:
+      layout: "article"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

@@ -1,19 +1,66 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-    <title>{{ page.title }}</title>
-    <link href="/default.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cardo" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    {% if page.css %}
-    <style type="text/css">
-        {{ page.css }}
-    </style>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }}{% else %}Mariano Simone{% endif %}</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/material-wfont.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% if page.description %}
+    <meta name="description" content="{{ page.description }}">
     {% endif %}
+    <style>
+        body{
+            padding-top:2em;
+        }
+        .bs-component{
+            position:relative
+        }
+        .infobox .btn-sup { color: rgba(0,0,0,0.5); font-weight: bold; font-size: 15px; line-height: 30px; }
+        .infobox .btn-sup img { opacity: 0.5; height: 30px;}
+        .infobox .btn-sup span { padding-left: 10px; position: relative; top: 2px; }
+        .external_links a {
+          color: #d2d2d2;
+          margin: 0 0.25em;
+          font-size: 2.5em;
+        }
+        .external_links a:hover {
+          color: #aaa;
+        }
+        .avatar {
+            min-width: 100px;
+            max-width: 150px;
+            width: 80%;
+            border-radius: 100%;
+            margin-top: 20px;
+        }
+        .featured_image {
+            height: 75px;
+            width: 75px;
+            float: left;
+            font-size: 75px;
+            text-align: center;
+        }
+        #reading_list img {
+            border-radius: 100%;
+            height: 56px;
+        }
+        @media (max-width: 768px) {
+            .header-content {
+                text-align: center;
+            }
+            .avatar {
+                margin-top: 0;
+            }
+        }
+        /* Font-Awesome hack for social sites being blocked by some plugins */
+        .my-fa-github:before { content: "\f09b"; }
+        .my-fa-linkedin:before { content: "\f0e1"; }
+        .my-fa-stack-overflow:before { content: "\f16c"; }
+    </style>
 </head>
-
 <body>
-{{ content }}
+    {{ content }}
 </body>
 </html>
