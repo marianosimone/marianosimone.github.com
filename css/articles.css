@@ -1,42 +1,75 @@
 body {
-  padding-top:2em;
+  padding-top: 2em;
 }
+
 .external_links a {
   color: #d2d2d2;
   margin: 0 0.25em;
   font-size: 2.5em;
 }
+
 .external_links a:hover {
   color: #aaa;
 }
+
 @media (max-width: 768px) {
   .header-content {
     text-align: center;
   }
 }
+
 .jumbotron p {
   font-size: 1em;
 }
+
 em {
   color: #000;
   font-weight: bold;
   font-style: italic;
 }
+
+/* Responsive image styling */
 img {
-  margin: 1em;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5em auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* For larger screens, limit image width */
+@media (min-width: 768px) {
+  img {
+    max-width: 80%;
+  }
+}
+
+/* For very large screens, limit image width further */
+@media (min-width: 1200px) {
+  img {
+    max-width: 70%;
+  }
+}
+
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   max-width: 80%;
 }
-table, th, td {
-    border: 1px solid;
+
+table,
+th,
+td {
+  border: 1px solid;
 }
-th, td {
-    padding: 0 1em 0 1em;
+
+th,
+td {
+  padding: 0 1em 0 1em;
 }
+
 blockquote {
   font-size: 1em;
   font-style: italic;
